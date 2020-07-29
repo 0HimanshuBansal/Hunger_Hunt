@@ -29,7 +29,6 @@
         android:id="@+id/relativeLayoutNoFavourite"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@id/view"
         android:background="@color/white"
         android:visibility="visible">
 
@@ -53,10 +52,4 @@
             android:textStyle="bold" />
     </RelativeLayout>
 
-    <View
-        android:background="@color/white"
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentBottom="true" />
 </RelativeLayout>
