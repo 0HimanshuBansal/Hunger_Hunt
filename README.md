@@ -24,3 +24,6 @@ Basic Functioning of the app
 11. A ‘Logout’ functionality which takes the user to the login page.
 12. A ‘Restaurant Details’ page which displays the menu items of that particular restaurant, each item’s price and the option to add an item to cart.
 13. A ‘Cart’ which lists the items added to cart and the total amount to be paid.
+
+# In Detail
+https://github.com/0HimanshuBansal/Hunger_Hunt/blob/master/Application%20Details.pdf
