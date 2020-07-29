@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp">
+
+                <TextView
+                    android:id="@+id/txtQ1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/question"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtQue1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/txtQ1"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/que1"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtA1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQ1"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/answer"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtAns1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQue1"
+                    android:layout_toEndOf="@id/txtQ1"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/ans1"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp">
+
+                <TextView
+                    android:id="@+id/txtQ2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/question"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtQue2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/txtQ2"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/que2"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtA2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQ2"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/answer"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtAns2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQue2"
+                    android:layout_toEndOf="@id/txtQ2"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/ans2"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp">
+
+                <TextView
+                    android:id="@+id/txtQ3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/question"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtQue3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/txtQ3"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/que3"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtA3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQ3"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/answer"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtAns3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQue3"
+                    android:layout_toEndOf="@id/txtQ3"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/ans3"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp">
+
+                <TextView
+                    android:id="@+id/txtQ4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/question"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtQue4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/txtQ4"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/que4"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtA4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQ4"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/answer"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtAns4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQue4"
+                    android:layout_toEndOf="@id/txtQ4"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/ans4"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp">
+
+                <TextView
+                    android:id="@+id/txtQ5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/question"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtQue5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/txtQ5"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/que5"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtA5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQ5"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/answer"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtAns5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQue5"
+                    android:layout_toEndOf="@id/txtQ5"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/ans5"
+                    android:textColor="@color/black" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            app:cardCornerRadius="3dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp">
+
+                <TextView
+                    android:id="@+id/txtQ6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/question"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtQue6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/txtQ6"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/que6"
+                    android:textColor="@color/materialRed" />
+
+                <TextView
+                    android:id="@+id/txtA6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQ6"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="0dp"
+                    android:paddingBottom="5dp"
+                    android:text="@string/answer"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/txtAns6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtQue6"
+                    android:layout_toEndOf="@id/txtQ6"
+                    android:fontFamily="res/font/poppins.xml"
+                    android:padding="5dp"
+                    android:text="@string/ans6"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</ScrollView>

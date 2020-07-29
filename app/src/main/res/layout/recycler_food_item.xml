@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutFoodMenu"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_margin="1dp">
+
+    <TextView
+        android:id="@+id/txtFoodId"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:text="@string/food_id"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="@color/lightGrey"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6.5">
+
+        <TextView
+            android:id="@+id/txtFoodName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="7dp"
+            android:fontFamily="@font/eina"
+            android:gravity="start"
+            android:text="@string/food_name"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtFoodPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtFoodName"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/eina"
+            android:text="@string/food_price"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnAddToCart"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="13dp"
+        android:layout_weight="2"
+        android:background="@color/materialRed"
+        android:elevation="5dp"
+        android:gravity="center"
+        android:text="@string/add_food"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</LinearLayout>
