@@ -23,6 +23,8 @@ class OrderConfirmationActivity : AppCompatActivity() {
         animDone = findViewById(R.id.animDone)
         btnOk = findViewById(R.id.btnOk)
 
+        RestaurantMenuActivity.ClearOrder(applicationContext).execute().get()
+
         val drawable: Drawable = animDone.drawable
 
         if (drawable is AnimatedVectorDrawableCompat) {
@@ -36,8 +38,11 @@ class OrderConfirmationActivity : AppCompatActivity() {
         btnOk.setOnClickListener {
             finish()
             val intent = Intent(this@OrderConfirmationActivity, MainActivity::class.java)
-            RestaurantMenuActivity.ClearOrder(applicationContext).execute().get()
             startActivity(intent)
         }
+    }
+
+    override fun onBackPressed() {
+        startActivity(Intent(this@OrderConfirmationActivity, MainActivity::class.java))
     }
 }
