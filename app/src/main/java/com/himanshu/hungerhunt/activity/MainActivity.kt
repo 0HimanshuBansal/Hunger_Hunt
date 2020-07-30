@@ -3,22 +3,24 @@ package com.himanshu.hungerhunt.activity
 import android.content.Context
 import android.content.Intent
 import android.content.SharedPreferences
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.Settings
 import android.view.MenuItem
 import android.widget.FrameLayout
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.core.app.ActivityCompat
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
+import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.navigation.NavigationView
 import com.himanshu.hungerhunt.R
 import com.himanshu.hungerhunt.fragment.*
 import com.himanshu.hungerhunt.util.ConnectionManager
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -40,6 +42,8 @@ class MainActivity : AppCompatActivity() {
         navigationView = findViewById(R.id.navigationView)
         coordinatorLayout = findViewById(R.id.coordinatorLayout)
         frameLayout = findViewById(R.id.frameLayout)
+        val params = toolbar.layoutParams as AppBarLayout.LayoutParams
+        params.scrollFlags = 0
         setUpToolbar()
         openHome()
 
