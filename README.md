@@ -2,7 +2,7 @@
 
 internshala android app development final project solution
 
-I have created this app during an online trainining on https://trainings.internshala.com/,
+I have created this android application as a project at the end of online trainining(https://trainings.internshala.com/),
 It is a basic application, fetching limited data from server
 
 Basic Functioning of the app
