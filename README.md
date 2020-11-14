@@ -1,6 +1,6 @@
 # Certificate by Internshala
 
-[embed]https://github.com/0HimanshuBansal/Hunger_Hunt/blob/master/Certificate.pdf[/embed]
+[embed] https://github.com/0HimanshuBansal/Hunger_Hunt/blob/master/Certificate.pdf [/embed]
 
 # Hunger_Hunt
 
