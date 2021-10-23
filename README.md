@@ -3,10 +3,9 @@ https://github.com/0HimanshuBansal/Hunger_Hunt/blob/master/Certificate.pdf
 
 # Hunger_Hunt
 
-internshala android app development final project solution
+I have created this android application as a project(without guidance) at the end of online training(https://trainings.internshala.com/),
 
-I have created this android application as a project at the end of online training(https://trainings.internshala.com/),
-It is a basic application, fetching limited data from server
+It is a food ordering application, you can order food(not actually, but functionally), from various restaurants and also track the past orders made by you. You can also add restaurants to your favorite list.
 
 Basic Functioning of the app
 
